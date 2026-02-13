@@ -1,0 +1,12 @@
+[slack]
+webhook_url = https://hooks.slack.com/services/YOUR/WEBHOOK/URL
+
+[tracker]
+poll_interval = 5
+idle_threshold = 300
+idle_check_interval = 30
+sleep_drift_threshold = 30
+debounce_seconds = 2
+
+[report]
+top_n = 5
